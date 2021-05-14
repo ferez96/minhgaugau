@@ -2,9 +2,9 @@ name: Update data
 
 on:
   workflow_dispatch: {}
-  schedule:
-    # Run Mondays at 2:45 am
-    # - cron: "45 2 * * 1"
+  # schedule:
+  #   # Run Mondays at 2:45 am
+  #   - cron: "45 2 * * 1"
 
 jobs:
   update:

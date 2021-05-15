@@ -1,6 +1,6 @@
 // Changes height of target to newHeight
 
-function changeHeightByClass(target, newHeight) {
+/* function changeHeightByClass(target, newHeight) {
     var elements = document.getElementsByClassName(target)
     var i
     for (i = 0; i < elements.length; i++) {
@@ -8,36 +8,6 @@ function changeHeightByClass(target, newHeight) {
         elements[i].style.height = newHeight
     }
 }
-
-// Creates DOM element for Open Source text on homepage
-
-var textCell = document.createElement('div')
-textCell.classList.add("Grid-cell", "u-size5of12", "u-before1of12")
-textCell.id = "open-source-text"
-
-var heading = document.createElement("h1")
-heading.classList.add("small-title", "mega-margin", "open-source-title")
-// Normal text in heading
-var headingText = document.createTextNode("Follow Us ")
-
-var link = document.createElement("a")
-// Link text in heading
-var linkText = document.createTextNode("@TwitterOSS")
-link.appendChild(linkText)
-link.setAttribute("target", "_blank")
-link.setAttribute("href", "https://twitter.com/TwitterOSS")
-
-heading.appendChild(headingText)
-heading.appendChild(link)
-textCell.appendChild(heading)
-
-// Optional caption after title
-
-// var caption = document.createElement("p")
-// caption.classList.add("same-mega-margin")
-// var captionText = document.createTextNode("")
-// caption.appendChild(captionText)
-// textCell.appendChild(caption)
 
 var timeline = document.getElementById("open-source-timeline")
 var parent = timeline.parentNode
@@ -121,5 +91,9 @@ function lessThan900px(mediaQuery) {
         removeClassByClass("emoji-card", "sizeFull")
         removeClassByClass("emoji-card", "center-margin")
     }
-}
+} */
 
+
+function openGift(e) {
+    alert("I Love You!");
+}

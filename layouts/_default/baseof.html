@@ -16,6 +16,7 @@
   </body>
 
   <script src="{{ "js/main.js" | relURL }}"></script>
-  <script src="{{ printf "js/%s" .Params.custom_js | relURL }}"></script>
+  <script src="{{ "js/love-heart-cursor.js" | relURL }}"></script>
+  <script src="{{ printf "js/%s" .Params.custom_js | relURL }}"></script>  
   {{ partial "ga.html" . }}
 </html>
